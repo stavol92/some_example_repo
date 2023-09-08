@@ -4,7 +4,7 @@ def foo(nums):
     for n in  nums:
         if n > 0:
             current += 1
-        else:
             best = max(current, best)
+        else:
             current = 0
-    return best = max(current, best)
+    return best
