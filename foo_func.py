@@ -7,4 +7,4 @@ def foo(nums):
         else:
             best = max(current, best)
             current = 0
-    return best
+    return best = max(current, best)
